@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Excercise_1
+{
+  
+    public class FunctionsContainer
+    {
+        private Dictionary<String, Func> dict;
+            public FunctionsContainer()
+        {
+
+        }
+
+        private class Func
+        {
+        }
+    }
+}

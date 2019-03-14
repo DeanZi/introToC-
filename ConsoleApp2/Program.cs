@@ -93,13 +93,13 @@ namespace Excercise_1
                 m.OnCalculate += SqrtHandler;
             }
 
-            missionList.Add(mission2);
-            missionList.Add(mission1);
-            missionList.Add(mission3);
-            missionList.Add(mission5);
+           missionList.Add(mission2);
+           missionList.Add(mission1);
+           missionList.Add(mission3);
+           missionList.Add(mission5);
 
             RunMissions(missionList, 100);
-            RunMissions(missionList, 2);
+            //RunMissions(missionList, 2);
 
             PrintAvailableFunctions(funcList);
         }
